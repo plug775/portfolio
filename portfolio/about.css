@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff6ee;
+    padding: 15px 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #e38750;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5e5147;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.menu a:hover,
+.menu a.active {
+    color: #e38750;
+}
+
+/* About Section */
+.about {
+    background: linear-gradient(135deg, #fcd2b1, #fbe5c8);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 20px 60px;
+}
+
+.about-card {
+    background: #fff8f3;
+    max-width: 750px;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+}
+
+.about-card h1 {
+    font-size: 32px;
+    color: #5e3d2e;
+    margin-bottom: 10px;
+}
+
+.intro {
+    color: #7a675c;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.section h2 {
+    color: #e38750;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.section ul {
+    list-style: none;
+    padding-left: 10px;
+    color: #5e5147;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.section p {
+    color: #5e5147;
+    font-size: 17px;
+    line-height: 1.8;
+}
